@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt- br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Portifólio</a>
+        <div class="nav">
+            <a href="#sobremim">Sobre mim</a>
+            <a href="#meustrabalhos">Meus Trabalhos</a>
+            <a href="#contato">Contato</a>
+        </div>
+        <div class="menu-hamburguer">
+            <div class="bar1">-</div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
+    </header> 
+    <!--home section-->
+    <section class="home" id="home">
+        <div class="home-contet">
+
+            <h1>Conheça a Karen Soares</h1>
+            <p>Iniciei em 2009 em cargos administrativo/financeiros, mas hoje sou uma profissional buscando oportunidades no mundo da Tecnologia da Informação. Atuo desde 2023 com desenvolvimento Front End, fui selecionada e participei do programa Start da Capgemini. Durante este período aprendi Lógica de Programação, HTML 5, CSS 3, JavaScript e ServiceNow. Estou ampliando e adquirindo experiência prática nestas e outras tecnologias. Gosto muito de Design e desenvolvimento de aplicações, principalmente Front End.</p>
+            <div>
+                <a href="#" class="btn">Entre em Contato!</a>
+            </div>
+        </div>
+        <div class="home-img"  id="foto">
+            <img src="img/Default_young_woman_dark_skin_big_dark_brown_eyes_long_dark_br_0 (1).jpg" alt="imagem01">
+        </div>
+
+    </section>
+    <!-- /Fim home section-->
+
+
+    <section class="portifolio " id="portifolio"> 
+     <div class="portifolio-container"> 
+        <div class="portifolio-box"> 
+            <img src="img/snow.jpg">
+
+            <p>Atuação na sustentação de projetos de grandes clientes, desenvolvendo soluções para requisições e incidentes de baixa a média complexidade.</p>
+
+        </div>
+
+        <div class="portifolio-box"> 
+            <img src="img/front2.jpg">
+            <p>Atuação na sustentação de projetos de grandes clientes, desenvolvendo soluções para requisições e incidentes de baixa a média complexidade.</p>
+
+        </div>
+
+        </div>
+
+
+    </section>
+    <!-- /Fim service/portifolio section-->
+            <!--section Vamos Conversar-->
+            <section class="conversar" id="vamosconversar"><!--Section About Id About-->
+                <div class="conversar-img"> <!--About img-->
+                    <img src="img/letstalk.jpg" alt="Conversa">
+                </div>
+
+                <div class="conversar-contet"> <!--about- contet-->
+                    <h3>Vamos conversar?</h3>
+                    <p> In voluptas veritatis, perferendis, inventore deleniti incidunt dolorum illo mollitia labore rerum ab. Quasi perspiciatis voluptatum ad natus nulla. Exercitationem quo ex non unde quaerat ut doloremque assumenda! Possimus, mollitia earum magnam consequatur tempora nihil! Odit est ad consectetur ea neque nisi fugit architecto enim pariatur sunt autem eveniet, laudantium numquam nostrum?</p>
+                    <a href="#" class="btn">Entre em contato</a>
+                </div>
+            </section>
+
+              <!-- /Fim section Vamos Conversar-->
+
+        <!--section contato-->
+    <section class="contato" id="contato">
+        <form id="form">
+            <div class="input-box">
+            
+                    <label for="name"> Nome</label>
+                    <input type="text" name ="name" class="" id="iname" placeholder="Digite seu nome completo " >
+                    <p class="error error-hidden">O nome é obrigatório</p>
+                    
+                    
+            </div>
+            <div class="input-box">
+            
+                <label for="email">Email</label>
+                <input  name="email" type="email" class="" >
+                <p class="error error-hidden">O email é obrigatório</p>
+                
+                
+        </div>
+        
+
+            <p for="cargo">Cargo</p>
+            <select>
+                <option value="designer">Designer</option>
+                <option value="recrutador">Recrutador</option>
+                <option value="gerente-sistemas">Gerente de Sistemas</option>
+                <option value="gerente-ti">Gerente de Ti</option>
+                <option value="desenvolvedor">Desenvolvedor</option>
+            </select>
+            <div class="input-box">
+               
+                            <label for="itel">Celular</label>
+                            <input type="text" name="tel" id="tel" placeholder="Digite somente números ">
+                            <p class="error error-hidden">O email é obrigatório</p>
+                     </div>
+                     <label for="message">Mensagem</label>
+                        <textarea name="message" ></textarea>
+                        <p class="error error-hidden">Campo obrigatório</p>
+
+
+                        <p>Opções</p>
+                        <div class="box-select">
+                            <div>
+                                <input type="checkbox"  id="opçao01" value="opçao01" name="escolha" required>
+                                <label for="opçao01">Aceito compartilhar meus dados enviados no formulário abaixo</label>
+                                <small id="textCheck"></small>
+                              
+                                
+                            </div>
+                            <div>
+                                <input type="checkbox" id="opçao02" value="opçao02" name="escolha">
+                                <label for="opçao02">Concordo em receber mensagens via e-mail</label>
+                               
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="opçao03" value="opçao03" name="escolha">
+                                <label for="opçao03">Concordo em receber mensagens via WhatsApp</label>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn">Enviar</button>
+                        
+        </form>
+        <div class="thanks error-hidden">
+            <h2>Obrigado pelo seu contato!</h2>
+
+        </div>
+    
+            </section>
+        <!-- /Fim contato section-->
+        <footer>
+            <p>Copyright &copy; 2024 by Karen</p>
+        </footer>
+   
+
+</body>
+
+<script src="js/script.js"></script>
+</html>
